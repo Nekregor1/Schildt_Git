@@ -1,0 +1,5 @@
+#ifndef DEMO_ARITHMETIC_OPERATION_WITH_INDEX_H
+#define DEMO_ARITHMETIC_OPERATION_WITH_INDEX_H
+
+#endif // DEMO_ARITHMETIC_OPERATION_WITH_INDEX_H
+void demo_arithmetic_operation_with_index();
