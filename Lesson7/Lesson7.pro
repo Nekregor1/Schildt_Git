@@ -14,6 +14,7 @@ SOURCES += \
     demo_argc_to_num.cpp \
     demo_argv_index.cpp \
     demo_atoi.cpp \
+    demo_factorial.cpp \
     demo_func_return_index.cpp \
     demo_func_string.cpp \
     demo_func_w_array.cpp \
@@ -24,6 +25,7 @@ SOURCES += \
     demo_local_var.cpp \
     demo_local_var_block.cpp \
     demo_myfunc_strlen.cpp \
+    demo_recursion.cpp \
     demo_return.cpp \
     demo_void.cpp \
     main.cpp \
@@ -34,6 +36,7 @@ HEADERS += \
     demo_argc_to_num.h \
     demo_argv_index.h \
     demo_atoi.h \
+    demo_factorial.h \
     demo_func_return_index.h \
     demo_func_string.h \
     demo_func_w_array.h \
@@ -44,6 +47,7 @@ HEADERS += \
     demo_local_var.h \
     demo_local_var_block.h \
     demo_myfunc_strlen.h \
+    demo_recursion.h \
     demo_return.h \
     demo_void.h \
     mainwindow.h

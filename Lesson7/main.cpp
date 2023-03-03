@@ -29,6 +29,8 @@ using namespace std;
 #include "demo_return.h"
 #include "demo_void.h"
 #include "demo_func_return_index.h"
+#include "demo_factorial.h"
+#include "demo_recursion.h"
 //-------------------------------------------------------------------------------------------------
 int main(int argc, char* argv[])
 {
@@ -47,6 +49,8 @@ int main(int argc, char* argv[])
 //    demo_atoi();
 //    demo_return();
 //    demo_void(argc, &argv[0]);
-    demo_func_return_index();
+//    demo_func_return_index();
+//    demo_factorial();
+    demo_recursion();
     return 0;
 }
