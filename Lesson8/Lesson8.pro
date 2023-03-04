@@ -13,6 +13,8 @@ SOURCES += \
     demo_func_w_index.cpp \
     demo_reference_parameter.cpp \
     demo_return_reference.cpp \
+    demo_return_reference_2.cpp \
+    demo_safe_array.cpp \
     demo_transfer_args.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -22,6 +24,8 @@ HEADERS += \
     demo_func_w_index.h \
     demo_reference_parameter.h \
     demo_return_reference.h \
+    demo_return_reference_2.h \
+    demo_safe_array.h \
     demo_transfer_args.h \
     mainwindow.h \
     swap_w_reference_param.h

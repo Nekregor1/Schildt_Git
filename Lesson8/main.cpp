@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
 #include "demo_reference_parameter.h"
 #include "swap_w_reference_param.h"
 #include "demo_return_reference.h"
+#include "demo_return_reference_2.h"
+#include "demo_safe_array.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -24,6 +26,8 @@ int main()
 //    demo_func_w_index();
 //    demo_reference_parameter();
 //    swap_w_reference_param();
-    demo_return_reference();
+//    demo_return_reference();
+//    demo_return_reference_2();
+    demo_safe_array();
     return 0;
 }
