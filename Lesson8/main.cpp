@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 #include "demo_return_reference.h"
 #include "demo_return_reference_2.h"
 #include "demo_safe_array.h"
+#include "demo_independ_reference.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -28,6 +29,7 @@ int main()
 //    swap_w_reference_param();
 //    demo_return_reference();
 //    demo_return_reference_2();
-    demo_safe_array();
+//    demo_safe_array();
+    demo_independ_reference();
     return 0;
 }

@@ -11,6 +11,7 @@ CONFIG += console
 
 SOURCES += \
     demo_func_w_index.cpp \
+    demo_independ_reference.cpp \
     demo_reference_parameter.cpp \
     demo_return_reference.cpp \
     demo_return_reference_2.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 
 HEADERS += \
     demo_func_w_index.h \
+    demo_independ_reference.h \
     demo_reference_parameter.h \
     demo_return_reference.h \
     demo_return_reference_2.h \
