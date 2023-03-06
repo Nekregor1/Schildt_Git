@@ -14,7 +14,7 @@ void demo_safe_array()
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("IBM 866"));
 #endif
 #ifdef Q_OS_LINUX
-    QTextCodec::serCodecForLocale(QTextCodec::codecForName("UTF-8"));
+    QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 #endif
 
     put(0) = 10;        // Помещаем значения в массив

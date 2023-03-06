@@ -19,6 +19,10 @@ int main(int argc, char *argv[])
 #include "demo_return_reference_2.h"
 #include "demo_safe_array.h"
 #include "demo_independ_reference.h"
+#include "demo_overload_func.h"
+#include "demo_overload_func_2.h"
+#include "demo_default_param.h"
+#include "demo_user_strcat.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -30,6 +34,10 @@ int main()
 //    demo_return_reference();
 //    demo_return_reference_2();
 //    demo_safe_array();
-    demo_independ_reference();
+//    demo_independ_reference();
+//    demo_overload_func();
+//    demo_overload_func_2();
+//    demo_default_param();
+    demo_user_strcat();
     return 0;
 }
