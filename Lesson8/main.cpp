@@ -33,11 +33,11 @@ int main()
 //    swap_w_reference_param();
 //    demo_return_reference();
 //    demo_return_reference_2();
-//    demo_safe_array();
+    demo_safe_array();
 //    demo_independ_reference();
 //    demo_overload_func();
 //    demo_overload_func_2();
 //    demo_default_param();
-    demo_user_strcat();
+//    demo_user_strcat();
     return 0;
 }

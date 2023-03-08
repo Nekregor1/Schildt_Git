@@ -11,16 +11,20 @@ CONFIG += console
 
 SOURCES += \
     demo_const.cpp \
+    demo_enum.cpp \
     demo_global_static_f1.cpp \
     demo_global_static_f2.cpp \
+    demo_register.cpp \
     demo_static.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     demo_const.h \
+    demo_enum.h \
     demo_global_static_f1.h \
     demo_global_static_f2.h \
+    demo_register.h \
     demo_static.h \
     mainwindow.h
 
