@@ -18,6 +18,13 @@ int main(int argc, char *argv[])
 #include "demo_global_static_f1.h"
 #include "demo_register.h"
 #include "demo_enum.h"
+#include "demo_and.h"
+#include "demo_binary_NO.h"
+#include "demo_shift.h"
+#include "demo_question_mark.h"
+#include "demo_comma.h"
+#include "demo_sizeof.h"
+#include "demo_init_din_mem.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -32,6 +39,13 @@ int main()
 //    demo_static();
 //    demo_global_static_f1();
 //    demo_register();
-    demo_enum();
+//    demo_enum();
+//    demo_and();
+//    demo_binary_NO();
+//    demo_shift();
+//    demo_question_mark();
+//    demo_comma();
+//    demo_sizeof();
+    demo_init_din_mem();
     return 0;
 }

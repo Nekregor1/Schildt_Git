@@ -6,3 +6,7 @@
 /build-Lesson6-Desktop-Debug
 /build-untitled-Desktop-Debug
 /build-*
+/Lesson*/*.pro.user
+/Lesson*/*.pro.user.*
+*.pro.user
+*.pro.user.*
