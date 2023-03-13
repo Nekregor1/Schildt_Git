@@ -25,6 +25,8 @@ int main(int argc, char *argv[])
 #include "demo_comma.h"
 #include "demo_sizeof.h"
 #include "demo_init_din_mem.h"
+#include "demo_new_delete_array.h"
+#include "demo_malloc_free.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -46,6 +48,8 @@ int main()
 //    demo_question_mark();
 //    demo_comma();
 //    demo_sizeof();
-    demo_init_din_mem();
+//    demo_init_din_mem();
+//    demo_new_delete_array();
+    demo_malloc_free();
     return 0;
 }

@@ -18,6 +18,8 @@ SOURCES += \
     demo_global_static_f1.cpp \
     demo_global_static_f2.cpp \
     demo_init_din_mem.cpp \
+    demo_malloc_free.cpp \
+    demo_new_delete_array.cpp \
     demo_question_mark.cpp \
     demo_register.cpp \
     demo_shift.cpp \
@@ -35,6 +37,8 @@ HEADERS += \
     demo_global_static_f1.h \
     demo_global_static_f2.h \
     demo_init_din_mem.h \
+    demo_malloc_free.h \
+    demo_new_delete_array.h \
     demo_question_mark.h \
     demo_register.h \
     demo_shift.h \
