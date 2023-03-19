@@ -10,12 +10,20 @@ CONFIG += console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    demo_index_to_struct.cpp \
+    demo_ref_to_struct.cpp \
     demo_struct.cpp \
+    demo_struct_as_arg.cpp \
+    demo_struct_assignment.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    demo_index_to_struct.h \
+    demo_ref_to_struct.h \
     demo_struct.h \
+    demo_struct_as_arg.h \
+    demo_struct_assignment.h \
     mainwindow.h
 
 FORMS += \

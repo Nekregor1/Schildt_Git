@@ -14,6 +14,10 @@ int main(int argc, char *argv[])
 #include <QTextCodec>
 #include <iostream>
 #include "demo_struct.h"
+#include "demo_struct_as_arg.h"
+#include "demo_struct_assignment.h"
+#include "demo_index_to_struct.h"
+#include "demo_ref_to_struct.h"
 using namespace std;
 //-------------------------------------------------------------------------------------------------
 
@@ -26,7 +30,10 @@ int main()
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 #endif
     int temp = 0;
-    temp = demo_struct();
-//    cout << QString::fromUtf8("Тест\n").toLocal8Bit().data();
+//    temp = demo_struct();
+//    demo_struct_as_arg();
+//    demo_struct_assignment();
+//    demo_index_to_struct();
+    demo_ref_to_struct();
     return temp;
 }
