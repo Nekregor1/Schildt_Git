@@ -18,6 +18,9 @@ int main(int argc, char *argv[])
 #include "demo_struct_assignment.h"
 #include "demo_index_to_struct.h"
 #include "demo_ref_to_struct.h"
+#include "demo_union.h"
+#include "demo_union_2.h"
+#include "demo_anonim_union.h"
 using namespace std;
 //-------------------------------------------------------------------------------------------------
 
@@ -34,6 +37,9 @@ int main()
 //    demo_struct_as_arg();
 //    demo_struct_assignment();
 //    demo_index_to_struct();
-    demo_ref_to_struct();
+//    demo_ref_to_struct();
+//    demo_union();
+//    demo_union_2();
+    demo_anonim_union();
     return temp;
 }
