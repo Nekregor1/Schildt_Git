@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 //-------------------------------------------------------------------------------------------------
 #include <QTextCodec>
 #include "demo_simple_class.h"
+#include "demo_access_to_class_memb.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -24,6 +25,7 @@ int main()
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 #endif
 
-    demo_simple_class();
+//    demo_simple_class();
+    demo_access_to_class_memb();
     return 0;
 }

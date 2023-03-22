@@ -10,11 +10,13 @@ CONFIG += console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    demo_access_to_class_memb.cpp \
     demo_simple_class.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    demo_access_to_class_memb.h \
     demo_simple_class.h \
     mainwindow.h
 
