@@ -3,7 +3,7 @@
 using namespace std;
 
 // Создание класса queue
-class queue {
+class queue2 {
     int q[100];
     int sloc, rloc;
 public:
@@ -13,13 +13,13 @@ public:
 };
 
 // Инициализация класса queue
-void queue::init()
+void queue2::init()
 {
     rloc = sloc = 0;
 }
 
 // Занесение в очередь целочисленного значения
-void queue::qput(int i)
+void queue2::qput(int i)
 {
     if (sloc == 100) {
         cout << QString::fromUtf8("Очередь заполнена.\n").toLocal8Bit().data();
@@ -30,7 +30,7 @@ void queue::qput(int i)
 }
 
 // Извлечение из очереди целочисленного значения
-int queue::qget()
+int queue2::qget()
 {
     if (rloc == sloc) {
         cout << QString::fromUtf8("Очередь пуста.\n").toLocal8Bit().data();
@@ -42,7 +42,7 @@ int queue::qget()
 
 void demo_simple_class()
 {
-    queue a, b;     // Создание двух объектов класса queue
+    queue2 a, b;     // Создание двух объектов класса queue
 
     a.init();
     b.init();

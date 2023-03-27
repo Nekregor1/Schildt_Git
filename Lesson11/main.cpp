@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 #include <QTextCodec>
 #include "demo_simple_class.h"
 #include "demo_access_to_class_memb.h"
+#include "demo_constr_destr_in_class.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -26,6 +27,7 @@ int main()
 #endif
 
 //    demo_simple_class();
-    demo_access_to_class_memb();
+//    demo_access_to_class_memb();
+    demo_constr_destr_in_class();
     return 0;
 }

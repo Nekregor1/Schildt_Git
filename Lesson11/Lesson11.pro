@@ -11,12 +11,14 @@ CONFIG += console
 
 SOURCES += \
     demo_access_to_class_memb.cpp \
+    demo_constr_destr_in_class.cpp \
     demo_simple_class.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     demo_access_to_class_memb.h \
+    demo_constr_destr_in_class.h \
     demo_simple_class.h \
     mainwindow.h
 
