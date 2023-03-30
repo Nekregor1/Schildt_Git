@@ -11,15 +11,37 @@ CONFIG += console
 
 SOURCES += \
     demo_access_to_class_memb.cpp \
+    demo_alternative_init_obj.cpp \
+    demo_array_of_obj.cpp \
+    demo_class_as_struct.cpp \
     demo_constr_destr_in_class.cpp \
+    demo_index_on_obj.cpp \
+    demo_init_array_obj.cpp \
+    demo_inline_func.cpp \
+    demo_inline_func_def_in_class.cpp \
+    demo_long_init_array_obj.cpp \
+    demo_param_constr.cpp \
     demo_simple_class.cpp \
+    demo_struct_as_class.cpp \
+    demo_union_as_class.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     demo_access_to_class_memb.h \
+    demo_alternative_init_obj.h \
+    demo_array_of_obj.h \
+    demo_class_as_struct.h \
     demo_constr_destr_in_class.h \
+    demo_index_on_obj.h \
+    demo_init_array_obj.h \
+    demo_inline_func.h \
+    demo_inline_func_def_in_class.h \
+    demo_long_init_array_obj.h \
+    demo_param_constr.h \
     demo_simple_class.h \
+    demo_struct_as_class.h \
+    demo_union_as_class.h \
     mainwindow.h
 
 FORMS += \
