@@ -10,12 +10,24 @@ CONFIG += console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    demo_assignment_obj.cpp \
+    demo_dinam_init.cpp \
     demo_friend_func.cpp \
+    demo_friend_func_2.cpp \
+    demo_friend_func_in_class.cpp \
+    demo_overload_constr.cpp \
+    demo_put_obj_func.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    demo_assignment_obj.h \
+    demo_dinam_init.h \
     demo_friend_func.h \
+    demo_friend_func_2.h \
+    demo_friend_func_in_class.h \
+    demo_overload_constr.h \
+    demo_put_obj_func.h \
     mainwindow.h
 
 FORMS += \
