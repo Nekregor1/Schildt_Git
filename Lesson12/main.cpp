@@ -19,13 +19,14 @@ int main(int argc, char *argv[])
 #include "demo_dinam_init.h"
 #include "demo_assignment_obj.h"
 #include "demo_put_obj_func.h"
+#include "demo_destruct_copies_of_obj.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
 {
 #ifdef Q_OS_WINDOWS
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("IBM 866"));
-#else
+#elseif Q_OS_LINUX
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 #endif
 
@@ -35,6 +36,7 @@ int main()
 //    demo_overload_constr();
 //    demo_dinam_init();
 //    demo_assignment_obj();
-    demo_put_obj_func();
+//    demo_put_obj_func();
+    demo_destruct_copies_of_obj();
     return 0;
 }

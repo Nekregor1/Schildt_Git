@@ -11,6 +11,7 @@ CONFIG += console
 
 SOURCES += \
     demo_assignment_obj.cpp \
+    demo_destruct_copies_of_obj.cpp \
     demo_dinam_init.cpp \
     demo_friend_func.cpp \
     demo_friend_func_2.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 
 HEADERS += \
     demo_assignment_obj.h \
+    demo_destruct_copies_of_obj.h \
     demo_dinam_init.h \
     demo_friend_func.h \
     demo_friend_func_2.h \
