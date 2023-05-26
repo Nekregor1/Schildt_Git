@@ -1,0 +1,5 @@
+#ifndef DEMO_CONSTR_OF_COPY_AND_PARAM_FUNC_H
+#define DEMO_CONSTR_OF_COPY_AND_PARAM_FUNC_H
+
+#endif // DEMO_CONSTR_OF_COPY_AND_PARAM_FUNC_H
+void demo_constr_of_copy_and_param_func();

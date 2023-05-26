@@ -20,6 +20,10 @@ int main(int argc, char *argv[])
 #include "demo_assignment_obj.h"
 #include "demo_put_obj_func.h"
 #include "demo_destruct_copies_of_obj.h"
+#include "demo_problem_with_take_obj.h"
+#include "demo_func_get_obj.h"
+#include "demo_problem_with_get_obj.h"
+#include "demo_constr_of_copy_and_param_func.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -37,6 +41,10 @@ int main()
 //    demo_dinam_init();
 //    demo_assignment_obj();
 //    demo_put_obj_func();
-    demo_destruct_copies_of_obj();
+//    demo_destruct_copies_of_obj();
+//    demo_problem_with_take_obj();
+//    demo_func_get_obj();
+//    demo_problem_with_get_obj();
+    demo_constr_of_copy_and_param_func();
     return 0;
 }
