@@ -24,6 +24,9 @@ int main(int argc, char *argv[])
 #include "demo_func_get_obj.h"
 #include "demo_problem_with_get_obj.h"
 #include "demo_constr_of_copy_and_param_func.h"
+#include "demo_constr_of_copy_by_init_obj.h"
+#include "demo_constr_of_copy_by_get_func_obj.h"
+#include "demo_key_word_this.h"
 //-------------------------------------------------------------------------------------------------
 
 int main()
@@ -45,6 +48,9 @@ int main()
 //    demo_problem_with_take_obj();
 //    demo_func_get_obj();
 //    demo_problem_with_get_obj();
-    demo_constr_of_copy_and_param_func();
+//    demo_constr_of_copy_and_param_func();
+//    demo_constr_of_copy_by_init_obj();
+//    demo_constr_of_copy_by_get_func_obj();
+    demo_key_word_this();
     return 0;
 }

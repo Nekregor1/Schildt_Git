@@ -12,12 +12,15 @@ CONFIG += console
 SOURCES += \
     demo_assignment_obj.cpp \
     demo_constr_of_copy_and_param_func.cpp \
+    demo_constr_of_copy_by_get_func_obj.cpp \
+    demo_constr_of_copy_by_init_obj.cpp \
     demo_destruct_copies_of_obj.cpp \
     demo_dinam_init.cpp \
     demo_friend_func.cpp \
     demo_friend_func_2.cpp \
     demo_friend_func_in_class.cpp \
     demo_func_get_obj.cpp \
+    demo_key_word_this.cpp \
     demo_overload_constr.cpp \
     demo_problem_with_get_obj.cpp \
     demo_problem_with_take_obj.cpp \
@@ -28,12 +31,15 @@ SOURCES += \
 HEADERS += \
     demo_assignment_obj.h \
     demo_constr_of_copy_and_param_func.h \
+    demo_constr_of_copy_by_get_func_obj.h \
+    demo_constr_of_copy_by_init_obj.h \
     demo_destruct_copies_of_obj.h \
     demo_dinam_init.h \
     demo_friend_func.h \
     demo_friend_func_2.h \
     demo_friend_func_in_class.h \
     demo_func_get_obj.h \
+    demo_key_word_this.h \
     demo_overload_constr.h \
     demo_problem_with_get_obj.h \
     demo_problem_with_take_obj.h \
