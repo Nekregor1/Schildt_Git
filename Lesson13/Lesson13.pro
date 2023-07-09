@@ -11,9 +11,12 @@ CONFIG += console
 
 SOURCES += \
     demo_oper_assignment.cpp \
+    demo_overload_binar_oper.cpp \
     demo_overload_commutation.cpp \
     demo_overload_func_friend.cpp \
     demo_overload_oper_func_class.cpp \
+    demo_overload_return_link.cpp \
+    demo_overload_safe_array.cpp \
     demo_overload_unar_oper.cpp \
     demo_overload_unar_oper_friend_func.cpp \
     main.cpp \
@@ -21,9 +24,12 @@ SOURCES += \
 
 HEADERS += \
     demo_oper_assignment.h \
+    demo_overload_binar_oper.h \
     demo_overload_commutation.h \
     demo_overload_func_friend.h \
     demo_overload_oper_func_class.h \
+    demo_overload_return_link.h \
+    demo_overload_safe_array.h \
     demo_overload_unar_oper.h \
     demo_overload_unar_oper_friend_func.h \
     mainwindow.h

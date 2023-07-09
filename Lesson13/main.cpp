@@ -19,6 +19,9 @@ int main(int argc, char *argv[])
 #include "demo_overload_commutation.h"
 #include "demo_overload_unar_oper_friend_func.h"
 #include "demo_oper_assignment.h"
+#include "demo_overload_binar_oper.h"
+#include "demo_overload_return_link.h"
+#include "demo_overload_safe_array.h"
 
 //-------------------------------------------------------------------------------------------------
 
@@ -35,7 +38,10 @@ int main()
 //    demo_overload_func_friend();
 //    demo_overload_commutation();
 //    demo_overload_unar_oper_friend_func();
-    demo_oper_assignment();
+//    demo_oper_assignment();
+//    demo_overload_binar_oper();
+//    demo_overload_return_link();
+    demo_overload_safe_array();
 
     return 0;
 }
