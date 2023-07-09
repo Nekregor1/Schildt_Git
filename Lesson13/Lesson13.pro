@@ -10,12 +10,16 @@ CONFIG += console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    demo_overload_func_friend.cpp \
     demo_overload_oper_func_class.cpp \
+    demo_overload_unar_oper.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    demo_overload_func_friend.h \
     demo_overload_oper_func_class.h \
+    demo_overload_unar_oper.h \
     mainwindow.h
 
 FORMS += \

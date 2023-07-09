@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 //-------------------------------------------------------------------------------------------------
 #include <QTextCodec>
 #include "demo_overload_oper_func_class.h"
+#include "demo_overload_unar_oper.h"
+#include "demo_overload_func_friend.h"
 
 //-------------------------------------------------------------------------------------------------
 
@@ -25,7 +27,9 @@ int main()
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 #endif
 
-    demo_overload_oper_func_class();
+//    demo_overload_oper_func_class();
+//    demo_overload_unar_oper();
+    demo_overload_func_friend();
 
     return 0;
 }
