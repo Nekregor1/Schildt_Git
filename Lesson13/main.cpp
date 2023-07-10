@@ -22,6 +22,8 @@ int main(int argc, char *argv[])
 #include "demo_overload_binar_oper.h"
 #include "demo_overload_return_link.h"
 #include "demo_overload_safe_array.h"
+#include "demo_overload_bracket.h"
+#include "demo_overload_str.h"
 
 //-------------------------------------------------------------------------------------------------
 
@@ -41,7 +43,9 @@ int main()
 //    demo_oper_assignment();
 //    demo_overload_binar_oper();
 //    demo_overload_return_link();
-    demo_overload_safe_array();
+//    demo_overload_safe_array();
+//    demo_overload_bracket();
+    demo_overload_str();
 
     return 0;
 }
