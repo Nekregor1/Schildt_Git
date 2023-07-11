@@ -1,4 +1,3 @@
-// Эта программа не скомпилируется
 #include <iostream>
 using namespace std;
 
@@ -8,8 +7,6 @@ public:
     base2() { m_i = m_j = 0;}
     void set(int a, int b) {m_i = a; m_j = b;}
     void show() {cout << m_i << ' ' << m_j << '\n';}
-//    friend int get_i(base2 ob) {return ob.m_i;}
-    int get_i() {return m_i;}
 };
 
 // Открытые члены класса base2 теперь становятся
@@ -20,8 +17,8 @@ class derived2: private base2 {
 public:
     derived2(int x) {m_k = x;}
     void showk() {cout << m_k << '\n';}
-    void set_all(int a, int b){set(a,b);}
-    void show_all() {show(); showk();}
+    void set_all(int a, int b){set(a,b);}       // Обеспечение доступа к закрытым члена base2
+    void show_all() {show(); showk();}          // --//--
 };
 
 void demo_inherit_private_access()
