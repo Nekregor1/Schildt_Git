@@ -1,0 +1,5 @@
+#ifndef DEMO_OVERLOAD_UNAR_OPER_FRIEND_FUNC_H
+#define DEMO_OVERLOAD_UNAR_OPER_FRIEND_FUNC_H
+
+#endif // DEMO_OVERLOAD_UNAR_OPER_FRIEND_FUNC_H
+void demo_overload_unar_oper_friend_func();
