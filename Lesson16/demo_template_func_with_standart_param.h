@@ -1,0 +1,5 @@
+#ifndef DEMO_TEMPLATE_FUNC_WITH_STANDART_PARAM_H
+#define DEMO_TEMPLATE_FUNC_WITH_STANDART_PARAM_H
+
+#endif // DEMO_TEMPLATE_FUNC_WITH_STANDART_PARAM_H
+void demo_template_func_with_standart_param();
