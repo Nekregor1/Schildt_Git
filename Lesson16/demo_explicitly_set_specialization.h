@@ -1,0 +1,5 @@
+#ifndef DEMO_EXPLICITLY_SET_SPECIALIZATION_H
+#define DEMO_EXPLICITLY_SET_SPECIALIZATION_H
+
+#endif // DEMO_EXPLICITLY_SET_SPECIALIZATION_H
+void demo_explicitly_set_specialization();
