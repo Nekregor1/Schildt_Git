@@ -15,7 +15,11 @@ SOURCES += \
     demo_catch_base_derived_class.cpp \
     demo_catch_some_exceptions.cpp \
     demo_class_exception.cpp \
+    demo_exception_by_operator_new.cpp \
     demo_exception_in_exception.cpp \
+    demo_operator_nothrow.cpp \
+    demo_overload_new_delete.cpp \
+    demo_repeat_exception.cpp \
     demo_simple_exception.cpp \
     demo_some_catch.cpp \
     demo_try_catch_in_func.cpp \
@@ -28,7 +32,11 @@ HEADERS += \
     demo_catch_base_derived_class.h \
     demo_catch_some_exceptions.h \
     demo_class_exception.h \
+    demo_exception_by_operator_new.h \
     demo_exception_in_exception.h \
+    demo_operator_nothrow.h \
+    demo_overload_new_delete.h \
+    demo_repeat_exception.h \
     demo_simple_exception.h \
     demo_some_catch.h \
     demo_try_catch_in_func.h \
